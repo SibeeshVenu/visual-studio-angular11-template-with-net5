@@ -67,6 +67,7 @@ namespace VsNet5Ng11
 
                 if (env.IsDevelopment())
                 {
+                    // Change to Angular url
                     spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
                 }
             });
